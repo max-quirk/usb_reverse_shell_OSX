@@ -22,8 +22,8 @@ msg.attach(part)
  
 server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
 server.ehlo()
-server.login("aidsyes99@gmail.com", "hellothere69")
-server.sendmail("aidsyes99@gmail.com", "69satansaveus69@gmail.com", msg.as_string())
+server.login("SENDING EMAIL", "PASSWORD")
+server.sendmail("SENDING EMAIL", "RECEIVING EMAIL", msg.as_string())
 server.close()
 
 print('Sent')
