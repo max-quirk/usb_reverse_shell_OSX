@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+launchctl unload ~/Library/LaunchAgents/.com.chrome.plist
+
+launchctl load ~/Library/LaunchAgents/.com.chrome.plist
+~                                                        
